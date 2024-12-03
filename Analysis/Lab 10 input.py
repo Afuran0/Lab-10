@@ -34,7 +34,7 @@ def analyze_string(s: str):
     vowels, consonants = count_vowels_and_consonants(s)
     more_vowels_than_consonants = vowels > consonants
 
-    # Print resultws
+    # Print results
     print(f"The string is a palindrome: {is_palindrome}")
     print(f"Number of vowels: {vowels}")
     print(f"Number of consonants: {consonants}")
@@ -42,7 +42,7 @@ def analyze_string(s: str):
 
 # EX
 if __name__ == "__main__":
-    test_string = "Hello, world!"
+    test_string = "Racecar!"
     analyze_string(test_string)
 
 
