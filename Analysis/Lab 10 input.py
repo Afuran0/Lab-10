@@ -42,7 +42,7 @@ def analyze_string(s: str):
 
 # EX
 if __name__ == "__main__":
-    test_string = "Racecar!"
+    test_string = "Racecar"
     analyze_string(test_string)
 
 
